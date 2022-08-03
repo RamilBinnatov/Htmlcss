@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration : none
+}
+
+.first{
+    width: 100%;
+    height: 350px;
+    background-color:  rgb(58.8, 29.4, 0);
+    border-radius: 10;
+    padding: 10px;
+    text-align: center;
+    padding: 130px;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.second{
+    width: 100%;
+    height: 619PX;
+    background-color: aqua;
+}
+
+.button a:first-child {
+    color: green;
+    margin-left:590px
+}
+
+
+.button a:not(:first-child) {
+    color: green;
+    margin-left:50px
+}
+.button{
+    font-size: 50px
+}
